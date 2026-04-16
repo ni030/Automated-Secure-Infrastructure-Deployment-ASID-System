@@ -1,0 +1,28 @@
+- name: Deploy App
+  hosts: servers
+  become: true
+
+  tasks:
+    - name: Create app directory
+      file:
+        path: /home/{{ ansible_user }}/app
+        state: directory
+
+    - name: Copy app files
+      copy:
+        src: ../app/
+        dest: /home/{{ ansible_user }}/app/
+
+    - name: Build Docker image
+      command: docker build -t myapp /home/{{ ansible_user }}/app
+
+    - name: Stop old container
+      command: docker stop myapp
+      ignore_errors: yes
+
+    - name: Remove old container
+      command: docker rm myapp
+      ignore_errors: yes
+
+    - name: Run container
+      command: docker run -d -p 80:5000 --name myapp myapp

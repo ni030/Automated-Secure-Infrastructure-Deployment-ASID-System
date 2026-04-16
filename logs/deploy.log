@@ -1,0 +1,198 @@
+2026-04-13 23:06:51,956 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-13 23:07:02,802 - ERROR - Command failed: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-13 23:07:02,802 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-13 23:07:13,343 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-13 23:07:13,343 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-13 23:07:23,913 - ERROR - Command failed: ansible-playbook -i hosts.ini security.yml
+2026-04-13 23:07:28,926 - ERROR - App down - redeploy triggered
+2026-04-13 23:07:28,927 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-13 23:07:39,499 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-13 23:23:38,945 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-13 23:23:58,197 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-13 23:23:58,198 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-13 23:24:00,986 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-13 23:24:00,986 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-13 23:24:06,454 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-13 23:24:06,467 - INFO - App healthy
+2026-04-13 23:26:36,772 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-13 23:26:43,373 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-13 23:26:43,373 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-13 23:26:47,569 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-13 23:26:47,569 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-13 23:26:53,750 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-13 23:26:53,761 - INFO - App healthy
+2026-04-15 08:41:08,341 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 08:41:19,074 - ERROR - Command failed: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 08:41:19,074 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 08:41:29,655 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 08:41:29,655 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 08:41:42,794 - ERROR - Command failed: ansible-playbook -i hosts.ini security.yml
+2026-04-15 08:41:47,801 - ERROR - App down - redeploy triggered
+2026-04-15 08:41:47,801 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 08:41:58,363 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 08:48:24,264 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 08:49:33,792 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 08:49:33,793 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 08:49:38,373 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 08:49:38,373 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 08:49:48,447 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 08:49:48,479 - INFO - App healthy
+2026-04-15 08:54:16,063 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 08:54:26,734 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 08:54:26,734 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 08:54:30,838 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 08:54:30,839 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 08:54:38,183 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 08:54:38,192 - INFO - App healthy
+2026-04-15 09:06:13,358 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:06:25,415 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:06:25,415 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:06:29,548 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:06:29,549 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:06:37,307 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:06:37,316 - INFO - App healthy
+2026-04-15 09:09:00,808 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:09:09,589 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:09:09,589 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:09:13,930 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:09:13,930 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:09:24,241 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:09:24,259 - INFO - App healthy
+2026-04-15 09:13:04,962 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:13:16,763 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:13:16,763 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:13:24,654 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:13:24,654 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:13:35,254 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:13:35,371 - ERROR - App down - redeploy triggered
+2026-04-15 09:13:35,371 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:13:38,944 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:15:59,540 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:16:08,794 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:16:08,794 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:16:13,359 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:16:13,359 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:16:24,683 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:16:24,736 - ERROR - App down - redeploy triggered
+2026-04-15 09:16:24,736 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:16:28,263 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:20:13,209 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:20:27,349 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:20:27,350 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:20:31,214 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:20:31,215 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:20:39,446 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:20:39,491 - ERROR - App down - redeploy triggered
+2026-04-15 09:20:39,491 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:20:43,307 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:35:43,506 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:35:54,840 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:35:54,840 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:35:59,106 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:35:59,106 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:36:05,963 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:36:06,011 - ERROR - App down - redeploy triggered
+2026-04-15 09:36:06,011 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:36:09,242 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:38:06,770 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:38:18,605 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:38:18,605 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:38:23,967 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:38:23,968 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:38:31,410 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:38:37,524 - ERROR - App down - redeploy triggered
+2026-04-15 09:38:37,524 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:38:41,011 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:46:18,049 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:46:18,475 - ERROR - Command failed: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 09:46:18,476 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:46:18,728 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:46:18,728 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:46:18,982 - ERROR - Command failed: ansible-playbook -i hosts.ini security.yml
+2026-04-15 09:46:25,101 - ERROR - App down - redeploy triggered
+2026-04-15 09:46:25,102 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:46:25,376 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 09:47:43,232 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 09:47:51,259 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 09:47:54,370 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 09:52:28,495 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 14:31:43,544 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 14:31:54,597 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 14:31:59,961 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 14:37:34,217 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 14:38:09,678 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 14:38:13,809 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 14:40:10,657 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:03:14,714 - INFO - Running: ansible-playbook -i /mnt/c/Users/user/Documents/SECRH/Python/ASID/ansible/hosts.ini /mnt/c/Users/user/Documents/SECRH/Python/ASID/ansible/install_docker.yml
+2026-04-15 15:03:22,103 - INFO - Running: ansible-playbook -i /mnt/c/Users/user/Documents/SECRH/Python/ASID/ansible/hosts.ini /mnt/c/Users/user/Documents/SECRH/Python/ASID/ansible/deploy_app.yml
+2026-04-15 15:03:25,572 - INFO - Running: ansible-playbook -i /mnt/c/Users/user/Documents/SECRH/Python/ASID/ansible/hosts.ini /mnt/c/Users/user/Documents/SECRH/Python/ASID/ansible/security.yml
+2026-04-15 15:04:49,392 - INFO - Running: ansible-playbook -i /mnt/c/Users/user/Documents/SECRH/Python/ASID/ansible/hosts.ini /mnt/c/Users/user/Documents/SECRH/Python/ASID/ansible/deploy_app.yml
+2026-04-15 15:08:05,063 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 15:08:05,381 - ERROR - Command failed: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 15:08:05,381 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:08:05,674 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:08:05,675 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 15:08:05,963 - ERROR - Command failed: ansible-playbook -i hosts.ini security.yml
+2026-04-15 15:08:12,899 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 15:08:13,209 - ERROR - Command failed: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 15:08:13,211 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:08:13,490 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:08:13,491 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 15:08:13,785 - ERROR - Command failed: ansible-playbook -i hosts.ini security.yml
+2026-04-15 15:08:19,931 - ERROR - App down - redeploy triggered
+2026-04-15 15:08:19,931 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:08:20,238 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:09:01,501 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 15:09:09,072 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 15:09:09,072 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:09:12,142 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:09:12,143 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 15:09:18,758 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 15:09:24,894 - ERROR - App down - redeploy triggered
+2026-04-15 15:09:24,895 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:09:28,002 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:09:36,849 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 15:09:43,861 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 15:09:43,861 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:09:46,791 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:09:46,792 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 15:09:53,403 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 15:09:59,539 - ERROR - App down - redeploy triggered
+2026-04-15 15:09:59,540 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:10:02,691 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:10:23,986 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 15:10:31,717 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 15:10:31,718 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:10:34,772 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:10:34,772 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 15:10:41,427 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 15:10:47,570 - ERROR - App down - redeploy triggered
+2026-04-15 15:10:47,570 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:10:51,202 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:13:16,995 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 15:13:17,462 - ERROR - Command failed: ansible-playbook -i ansible/hosts.ini ansible/install_docker.yml
+2026-04-15 15:13:17,463 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:13:18,172 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:13:18,173 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 15:13:18,454 - ERROR - Command failed: ansible-playbook -i ansible/hosts.ini ansible/security.yml
+2026-04-15 15:13:24,601 - ERROR - App down - redeploy triggered
+2026-04-15 15:13:24,601 - INFO - Running: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:13:25,235 - INFO - Success: ansible-playbook -i ansible/hosts.ini ansible/deploy_app.yml
+2026-04-15 15:13:56,000 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 15:14:04,718 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 15:14:04,718 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:14:05,014 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:14:05,014 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 15:14:12,616 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 15:14:18,756 - ERROR - App down - redeploy triggered
+2026-04-15 15:14:18,756 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:14:19,068 - ERROR - Command failed: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:14:34,771 - INFO - Running: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 15:14:42,495 - INFO - Success: ansible-playbook -i hosts.ini install_docker.yml
+2026-04-15 15:14:42,496 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:14:45,255 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:14:45,255 - INFO - Running: ansible-playbook -i hosts.ini security.yml
+2026-04-15 15:14:51,859 - INFO - Success: ansible-playbook -i hosts.ini security.yml
+2026-04-15 15:14:57,991 - ERROR - App down - redeploy triggered
+2026-04-15 15:14:57,991 - INFO - Running: ansible-playbook -i hosts.ini deploy_app.yml
+2026-04-15 15:15:01,085 - INFO - Success: ansible-playbook -i hosts.ini deploy_app.yml

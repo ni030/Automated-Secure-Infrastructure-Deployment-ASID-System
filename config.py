@@ -1,0 +1,3 @@
+TARGET_HOST = "172.20.10.3"
+TARGET_URL = f"http://{TARGET_HOST}"
+CONTAINER_NAME = "myapp"

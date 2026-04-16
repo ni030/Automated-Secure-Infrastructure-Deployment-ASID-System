@@ -1,0 +1,22 @@
+- name: Monitor and Auto Heal
+  hosts: servers
+  become: true
+
+  tasks:
+    - name: Check container status
+      shell: docker ps --filter "name=myapp" --filter "status=running" --format "{{'{{'}}.Names{{'}}'}}"
+      register: result
+
+    - name: Restart container if down
+      shell: docker start myapp
+      when: result.stdout == ""
+
+    - name: Show status
+      debug:
+        msg: "App is running"
+      when: result.stdout != ""
+
+    - name: Show recovery
+      debug:
+        msg: "App was down, restarted!"
+      when: result.stdout == ""
