@@ -1,0 +1,32 @@
+[2026-04-16 10:36:39.338130] Restart triggered
+[2026-04-16 10:36:45.436404] Self-heal: container healthy
+[2026-04-16 10:36:59.600001] Firewall allow 22
+[2026-04-16 14:09:01.117790] Restart triggered
+[2026-04-16 14:46:23.038856] Self-heal: container restarted
+[2026-04-16 14:46:50.481321] Restart triggered
+[2026-04-16 14:47:06.554636] Firewall delete 80
+[2026-04-16 16:30:58.406561] Self-heal: container restarted
+[2026-04-16 16:31:16.300741] Firewall allow 80
+[2026-04-16 16:41:59] Firewall Delete: Removed allow rule for IP 192.169.2.1
+[2026-04-16 16:42:26] Firewall Delete: Removed allow rule for Port 255
+[2026-04-16 16:42:45] Firewall Delete: Removed allow rule for Port 80
+[2026-04-16 16:42:59] Firewall Delete: Removed allow rule for IP 182.169.2.1
+[2026-04-16 16:43:11] Firewall Delete: Removed allow rule for IP 192.168.10.2
+[2026-04-16 16:46:53] Firewall Delete: Wiped rules for IP 192.168.10.2
+[2026-04-16 16:48:29] Self-heal triggered: myapp was down and has been restarted.
+[2026-04-16 16:48:54] 🚨 Nmap simulated attack from 192.168.10.254 → BLOCKED via UFW
+[2026-04-16 16:49:28] Firewall Allow: IP 10.10.2.0/24 on Port 80
+[2026-04-16 16:53:52] Firewall Delete: Wiped rules for IP 10.10.0.0/24
+[2026-04-16 16:54:05] Firewall Deny: IP 10.10.2.0/24
+[2026-04-16 16:54:19] Firewall Delete: Wiped rules for IP 10.10.2.0/24
+[2026-04-16 16:54:27] Firewall Delete: Wiped rules for Port 80
+[2026-04-16 16:54:35] Firewall Delete: Wiped rules for Port 80
+[2026-04-16 16:54:37] Firewall Delete: Wiped rules for Port 80
+[2026-04-16 16:54:53] Firewall Delete: Wiped rules for IP 10.10.2.0/24
+[2026-04-16 16:55:11] Firewall Delete: Wiped rules for IP 10.0.0.0/24
+[2026-04-16 16:55:29] Firewall Delete: Wiped rules for IP 10.10.2.0/24
+[2026-04-16 16:55:46] Firewall Delete: Wiped rules for IP 10.10.2.0/24 on Port 80
+[2026-04-16 16:56:00] Firewall Delete: Wiped rules for IP 192.168.10.254
+[2026-04-16 16:58:47] Self-heal triggered: myapp was down and has been restarted.
+[2026-04-16 16:59:08] 🚨 Nmap simulated attack from 192.168.2.2 → BLOCKED via UFW
+[2026-04-16 16:59:39] Firewall Allow: IP 10.10.0.0/24 on Port 80
